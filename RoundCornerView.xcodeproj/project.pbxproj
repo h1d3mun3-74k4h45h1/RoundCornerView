@@ -33,6 +33,7 @@
 		833ABF9921C1107400B23476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833ABFA321C1108900B23476 /* TargetedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedExtension.swift; sourceTree = "<group>"; };
 		833ABFA521C1131500B23476 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		833ABFA721C119D200B23476 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		833ABF7F21C1107400B23476 = {
 			isa = PBXGroup;
 			children = (
+				833ABFA721C119D200B23476 /* README.md */,
 				833ABF8B21C1107400B23476 /* RoundCornerView */,
 				833ABF9621C1107400B23476 /* RoundCornerViewTests */,
 				833ABF8A21C1107400B23476 /* Products */,
