@@ -10,8 +10,8 @@ import UIKit
 
 extension UIView: RoundCornerViewCompatible {}
 
-extension RoundCornerView where Base: UIView {
-    func makeRound(corners: UIRectCorner, cornerRadius: CGFloat) {
+public extension RoundCornerView where Base: UIView {
+    public func makeRound(corners: UIRectCorner, cornerRadius: CGFloat) {
         let path = UIBezierPath(roundedRect: base.bounds,
                                 byRoundingCorners: corners,
                                 cornerRadii: CGSize(width: cornerRadius, height: cornerRadius))

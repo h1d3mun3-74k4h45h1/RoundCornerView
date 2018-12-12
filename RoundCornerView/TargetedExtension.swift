@@ -6,20 +6,20 @@
 //  Copyright © 2018 Hidemune Takahashi. All rights reserved.
 //
 
-struct RoundCornerView<Base> {
+public struct RoundCornerView<Base> {
     let base: Base
     init (_ base: Base) {
         self.base = base
     }
 }
 
-protocol RoundCornerViewCompatible {
+public protocol RoundCornerViewCompatible {
     associatedtype Compatible
     static var rcv: RoundCornerView<Compatible>.Type { get }
     var rcv: RoundCornerView<Compatible> { get }
 }
 
-extension RoundCornerViewCompatible {
+public extension RoundCornerViewCompatible {
     static var rcv: RoundCornerView<Self>.Type {
         return RoundCornerView<Self>.self
     }
