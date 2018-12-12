@@ -10,6 +10,8 @@
 		833ABF9321C1107400B23476 /* RoundCornerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833ABF8921C1107400B23476 /* RoundCornerView.framework */; };
 		833ABF9821C1107400B23476 /* RoundCornerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ABF9721C1107400B23476 /* RoundCornerViewTests.swift */; };
 		833ABF9A21C1107400B23476 /* RoundCornerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 833ABF8C21C1107400B23476 /* RoundCornerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833ABFA421C1108900B23476 /* TargetedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ABFA321C1108900B23476 /* TargetedExtension.swift */; };
+		833ABFA621C1131500B23476 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ABFA521C1131500B23476 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		833ABF9221C1107400B23476 /* RoundCornerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundCornerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833ABF9721C1107400B23476 /* RoundCornerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerViewTests.swift; sourceTree = "<group>"; };
 		833ABF9921C1107400B23476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833ABFA321C1108900B23476 /* TargetedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedExtension.swift; sourceTree = "<group>"; };
+		833ABFA521C1131500B23476 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				833ABF8C21C1107400B23476 /* RoundCornerView.h */,
 				833ABF8D21C1107400B23476 /* Info.plist */,
+				833ABFA521C1131500B23476 /* UIViewExtension.swift */,
+				833ABFA321C1108900B23476 /* TargetedExtension.swift */,
 			);
 			path = RoundCornerView;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					833ABF8821C1107400B23476 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					833ABF9121C1107400B23476 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833ABFA621C1131500B23476 /* UIViewExtension.swift in Sources */,
+				833ABFA421C1108900B23476 /* TargetedExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 		833ABF9E21C1107400B23476 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hidemune.takahashi.RoundCornerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +377,7 @@
 		833ABF9F21C1107400B23476 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +403,7 @@
 		833ABFA121C1107400B23476 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4DR2N9467;
 				INFOPLIST_FILE = RoundCornerViewTests/Info.plist;
@@ -409,6 +422,7 @@
 		833ABFA221C1107400B23476 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4DR2N9467;
 				INFOPLIST_FILE = RoundCornerViewTests/Info.plist;
