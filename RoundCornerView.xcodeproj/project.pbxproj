@@ -12,6 +12,7 @@
 		833ABF9A21C1107400B23476 /* RoundCornerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 833ABF8C21C1107400B23476 /* RoundCornerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		833ABFA421C1108900B23476 /* TargetedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ABFA321C1108900B23476 /* TargetedExtension.swift */; };
 		833ABFA621C1131500B23476 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ABFA521C1131500B23476 /* UIViewExtension.swift */; };
+		83D5732721DF0594009FE550 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 83D5732621DF0594009FE550 /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		833ABFA321C1108900B23476 /* TargetedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetedExtension.swift; sourceTree = "<group>"; };
 		833ABFA521C1131500B23476 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		833ABFA721C119D200B23476 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83D5732621DF0594009FE550 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				833ABFA721C119D200B23476 /* README.md */,
+				83D5732621DF0594009FE550 /* License */,
 				833ABF8B21C1107400B23476 /* RoundCornerView */,
 				833ABF9621C1107400B23476 /* RoundCornerViewTests */,
 				833ABF8A21C1107400B23476 /* Products */,
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D5732721DF0594009FE550 /* License in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
